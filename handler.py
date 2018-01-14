@@ -6,3 +6,5 @@ if len(sys.arg)  > 1:
     address = ' '.join(sys.argv[1:])
 else:
     addrress = pyperclip.paste()
+
+webbrowser.open('https://www.google.com/maps/place' + address)
